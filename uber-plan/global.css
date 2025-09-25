@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*----Fonts-Import-----*/
+@font-face {
+  font-family: MONT;
+  src: url("/Fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+  font-family: MONTT;
+  src: url("/Fonts/Montserrat-Bold.otf");
+}
+
+@font-face {
+  font-family: BLACK;
+  src: url("/Fonts/Montserrat-Black.otf");
+}
+
+@font-face {
+  font-family: BEBAS;
+  src: url("/Fonts/BebasNeue-Regular.ttf");
+}
+
+.custom-font {
+  font-family: "MONT", sans-serif;
+}
+
+.custom-font1 {
+  font-family: "BEBAS", sans-serif;
+}
+
+.custom-font2 {
+  font-family: "BLACK", sans-serif;
+}
+
+.custom-font3 {
+  font-family: "MONTT", sans-serif;
+}
+
+.norm-font {
+  font-family: sans-serif;
+}
